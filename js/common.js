@@ -18,7 +18,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	$menu.removeClass("fixed").addClass("default");
 }
 
-	//плавный скролл
+	//плавный скролл 
 	$(".navigat li a").mPageScroll2id();
 
 	$(".item-billbord__head").click(function() {
