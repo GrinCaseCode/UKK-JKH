@@ -603,6 +603,7 @@
 	.menu > li {
 		border: none;
 	}
+	.menu ul a,
 	.menu > li > a,
 	.menu a {
 		padding: 10px 0;
@@ -615,6 +616,29 @@
 		align-items: center;
 		justify-content: space-between;
 	}
+	.menu ul {
+		padding: 0;
+		padding-left: 15px;
+		visibility: visible;
+		opacity: 1;
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		max-width: 100%;
+		background-color: transparent;
+		display: none;
+		transition: initial;
+	}
+	.menu ul a {
+		font-size: 13px;
+	}
+	.menu__haschild:hover > a::after {
+	transform: rotate(0deg);
+}
+.menu__haschild.active > a::after {
+	transform: rotate(180deg);
+}
 	.menu-mobile .contacts-wrap {
 		margin-bottom: 20px;
 	}
