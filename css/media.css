@@ -655,6 +655,9 @@
 	.row_categories > div {
 		margin-bottom: 25px;
 	}
+	.contacts-wrap .social-page {
+    margin-top: -7px;
+}
 }
 
 
