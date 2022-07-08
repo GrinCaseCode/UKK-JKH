@@ -630,6 +630,12 @@
 		display: none;
 		transition: initial;
 	}
+	.menu ul a:hover,
+	.menu > li > a:hover,
+	.menu a:hover {
+			color: #1393E2;
+	border-color: #1393E2;
+	}
 	.menu ul a {
 		font-size: 13px;
 	}
