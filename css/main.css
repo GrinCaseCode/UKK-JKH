@@ -1514,7 +1514,7 @@ border-radius: 20px;
 .news-simple .link-block:hover {
 	border-color: transparent;
 }
-.pager {
+.pager { 
 	height: 40px;
 	margin-top: 47px;
 	position: relative;

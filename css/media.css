@@ -657,7 +657,7 @@
 		display: none;
 		overflow: auto;
 		background-color: #fff;
-		position: absolute;
+		position: absolute; 
 	}
 	.menu-mobile .menu {
 		margin-bottom: 15px;
