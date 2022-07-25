@@ -28,6 +28,19 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(this).parent().toggleClass("active");
 	});
 
+	$(".item-dropdown__head .link-block").click(function(e) {
+		e.preventDefault();
+		$(this).parent().parent().parent().siblings().find(".item-dropdown").removeClass("active");
+		$(this).parent().parent().parent().siblings().find(".item-dropdown").find(".item-dropdown__content").slideUp(200);
+		$(this).parent().siblings(".item-dropdown__content").slideToggle(200);
+		$(this).parent().parent().toggleClass("active");
+		if ($(this).parent().parent().hasClass("active")) {
+			$(this).html("Оплата договорная");
+		} else {
+			$(this).html("Подробнее");
+		}
+	});
+
 
 	//кнопка sandwich
 	$(".sandwich").click(function() {
