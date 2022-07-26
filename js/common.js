@@ -35,6 +35,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(this).parent().siblings(".item-dropdown__content").slideToggle(200);
 		$(this).parent().parent().toggleClass("active");
 		if ($(this).parent().parent().hasClass("active")) {
+			$(this).html("Свернуть");
+		} else {
+			$(this).html("Подробнее");
+		}
+	});
+
+	$(".vacancies .item-dropdown__head .link-block").click(function(e) {
+		e.preventDefault();
+		if ($(this).parent().parent().hasClass("active")) {
 			$(this).html("Оплата договорная");
 		} else {
 			$(this).html("Подробнее");
