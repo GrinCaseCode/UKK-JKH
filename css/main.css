@@ -1573,9 +1573,9 @@ form {
 	padding-bottom: 50px;
 	margin-top: 40px;
 	background: #FFFFFF;
-border: 1px solid #F2F2F2;
-box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
-border-radius: 20px;
+	border: 1px solid #F2F2F2;
+	box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+	border-radius: 20px;
 }
 .article__left p {
 	margin-bottom: 20px;
@@ -1588,9 +1588,9 @@ border-radius: 20px;
 }
 .article time {
 	font-size: 18px;
-line-height: 25px;
-margin-bottom: 40px;
-color: #000;
+	line-height: 25px;
+	margin-bottom: 40px;
+	color: #000;
 	display: block;
 }
 .article .title-section {
@@ -1647,8 +1647,8 @@ color: #000;
 }
 .table-main table {
 	font-size: 14px;
-line-height: 18px;
-color: #4F4F4F;
+	line-height: 18px;
+	color: #4F4F4F;
 	width: 100%;
 	border-spacing: 0;
 }
@@ -1661,15 +1661,15 @@ color: #4F4F4F;
 .table-main td {
 	padding: 10px 25px;
 	border-bottom: 1px solid #D8DFEB;
-		border-right: 1px solid #D8DFEB;
+	border-right: 1px solid #D8DFEB;
 }
 .table-main th:first-child,
 .table-main td:first-child {
 	border-left: 1px solid #D8DFEB;
 }
 .table-main th {
-border-top: 1px solid #D8DFEB;
-white-space: nowrap;
+	border-top: 1px solid #D8DFEB;
+	white-space: nowrap;
 }
 .table-main td:last-child,
 .table-main td:first-child {
@@ -1682,10 +1682,10 @@ white-space: nowrap;
 	border-top-right-radius: 20px;
 }
 .table-main tr:last-child td:first-child {
-		border-bottom-left-radius: 20px;
+	border-bottom-left-radius: 20px;
 }
 .table-main tr:last-child td:last-child {
-		border-bottom-right-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 .distance-learning .item-dropdown__head {
 	height: 120px;
@@ -1708,9 +1708,9 @@ white-space: nowrap;
 	padding-bottom: 40px;
 	margin-bottom: 40px;
 	background: #FFFFFF;
-border: 2px solid #008DD2;
-border-radius: 20px;
-transition: all 0.3s;
+	border: 2px solid #008DD2;
+	border-radius: 20px;
+	transition: all 0.3s;
 }
 .item-blog__title {
 	font-size: 22px;
@@ -1740,8 +1740,8 @@ transition: all 0.3s;
 .block-form {
 	padding: 50px 25px;
 	background: #FFFFFF;
-box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
-border-radius: 20px;
+	box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+	border-radius: 20px;
 }
 .block-form .title-form {
 	font-size: 28px;
@@ -1770,8 +1770,8 @@ border-radius: 20px;
 	color: #636363;
 }
 .item-form_page .jq-selectbox__dropdown {
-border: 1px solid #E0E0E0;
+	border: 1px solid #E0E0E0;
 }
 #modal-registration .modal-wrap {
 	width: 700px;
-}
+} 
