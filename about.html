@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.5" />
+	<link rel="stylesheet" href="css/media.css?ver=1.5" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="container">
+				<div class="header__wrap">
+					<div class="logo-block">
+						<div class="logo-wrap">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="alt">
+							</a>
+							<div class="logo-name">Учебно-курсовой комбинат жилищно-коммунального хозяйства</div>
+						</div>
+						<div class="logo-descr">Курсы профессиональной переподготовки и повышения квалификации в Крыму</div>
+					</div>
+					<div class="header__center">
+						<ul class="nav">
+							<li><a href="#">Дистанционное обучение</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">Вакансии</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+						<div class="header-menu">
+							<ul class="menu">
+								<li class="menu__haschild">
+									<a href="#">Курсы </a>
+									<ul>
+										<li><a href="#">Промышленная безопасность</a></li>
+										<li><a href="#">Охрана труда</a></li>
+										<li><a href="#">Профессиональная подготовка специалистов</a></li>
+										<li><a href="#">Пожарная безопасность</a></li>
+										<li><a href="#">Экологическая безопасность</a></li>
+										<li><a href="#">Энергосбрежение</a></li>
+										<li><a href="#">Повышение квалификации</a></li>
+										<li><a href="#">Обучение рабочих</a></li>
+										<li><a href="#">Ежегодно обучение</a></li>
+										<li><a href="#">Безопасность движения на автотранспорте</a></li>
+										<li><a href="#">Гражданская оборона</a></li>
+										<li><a href="#">Рабочие профессии</a></li>
+										<li><a href="#">ЦОК</a></li>
+									</ul>
+								</li>
+								<li class="menu__haschild">
+									<a href="#">О нас</a>
+									<ul>
+										<li><a href="#">Структура и органы управления</a></li>
+										<li><a href="#">Основные сведения</a></li>
+										<li><a href="#">Документы</a></li>
+										<li><a href="#">Образование</a></li>
+										<li><a href="#">Образовательные стандарты</a></li>
+										<li><a href="#">Вакантные места для приема (перевода)</a></li>
+										<li><a href="#">Финансово-хозяйственная деятельность</a></li>
+										<li><a href="#">Платные образовательные услуги</a></li>
+										<li><a href="#">Руководство и педагогический состав</a></li>
+										<li><a href="#">Стипендии и иные виды материальной поддержки</a></li>
+										<li><a href="#">Материально-техническое обеспечение</a></li>
+										<li><a href="#">Антикоррупционная политика</a></li>
+									</ul>
+								</li>
+							</ul>
+							<div class="search-form">
+								<form>
+									<input type="text" placeholder="Поиск" required="required">
+									<button class="btn-search"><img src="img/search.svg" alt="alt"></button>
+								</form>
+							</div> 
+						</div>
+					</div>
+					<div class="header__right">
+						<div class="contacts-wrap">
+							<a href="#callback" class="btn-call"><i class="fas fa-phone-alt"></i></a>
+							<ul>
+								<li><a href="tel:+79782127982" class="phone-main">+7 (978) 212-79-82</a></li>
+								<li><a href="tel:+79782127984" class="phone-main">+7 (978) 212-79-84</a></li>
+							</ul>
+							<ul class="social-page">
+								<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+								<li><a href="#"><img src="img/wp.svg" alt="alt"></a></li>
+							</ul>
+						</div>
+						<a href="mailto:ukkgkh_rc@mail.ru" class="link-page">ukkgkh_rc@mail.ru</a>
+					</div>
+					<span class='sandwich'>
+						<span class='sw-topper'></span>
+						<span class='sw-bottom'></span>
+						<span class='sw-footer'></span>
+					</span>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<div class="search-form">
+					<form>
+						<input type="text" placeholder="Поиск" required="required">
+						<button class="btn-search"><img src="img/search.svg" alt="alt"></button>
+					</form>
+				</div>
+				<ul class="menu">
+					<li class="menu__haschild">
+						<a href="#">Курсы </a>
+						<ul>
+							<li><a href="#">Промышленная безопасность</a></li>
+							<li><a href="#">Охрана труда</a></li>
+							<li><a href="#">Профессиональная подготовка специалистов</a></li>
+							<li><a href="#">Пожарная безопасность</a></li>
+							<li><a href="#">Экологическая безопасность</a></li>
+							<li><a href="#">Энергосбрежение</a></li>
+							<li><a href="#">Повышение квалификации</a></li>
+							<li><a href="#">Обучение рабочих</a></li>
+							<li><a href="#">Ежегодно обучение</a></li>
+							<li><a href="#">Безопасность движения на автотранспорте</a></li>
+							<li><a href="#">Гражданская оборона</a></li>
+							<li><a href="#">Рабочие профессии</a></li>
+							<li><a href="#">ЦОК</a></li>
+						</ul>
+					</li>
+					<li class="menu__haschild">
+						<a href="#">О нас</a>
+						<ul>
+							<li><a href="#">Структура и органы управления</a></li>
+							<li><a href="#">Основные сведения</a></li>
+							<li><a href="#">Документы</a></li>
+							<li><a href="#">Образование</a></li>
+							<li><a href="#">Образовательные стандарты</a></li>
+							<li><a href="#">Вакантные места для приема (перевода)</a></li>
+							<li><a href="#">Финансово-хозяйственная деятельность</a></li>
+							<li><a href="#">Платные образовательные услуги</a></li>
+							<li><a href="#">Руководство и педагогический состав</a></li>
+							<li><a href="#">Стипендии и иные виды материальной поддержки</a></li>
+							<li><a href="#">Материально-техническое обеспечение</a></li>
+							<li><a href="#">Антикоррупционная политика</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Дистанционное обучение</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Вакансии</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<div class="contacts-wrap">
+					<a href="#callback" class="btn-call"><i class="fas fa-phone-alt"></i></a>
+					<ul>
+						<li><a href="tel:+79782127982" class="phone-main">+7 (978) 212-79-82</a></li>
+						<li><a href="tel:+79782127984" class="phone-main">+7 (978) 212-79-84</a></li>
+					</ul>
+					<ul class="social-page">
+						<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+						<li><a href="#"><img src="img/wp.svg" alt="alt"></a></li>
+					</ul>
+				</div>
+				<a href="mailto:ukkgkh_rc@mail.ru" class="link-page">ukkgkh_rc@mail.ru</a>
+			</div>
+		</header>
+
+		<section class="about-page">
+			<div class="container">
+				<ul class="breadcumbs">
+					<li><a href="#">Главная</a></li>
+					<li>О нас</li>
+				</ul>
+				<h1 class="title-section">О нас</h1>
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="wrap-tabs">
+							<div class="btn-tab"></div>
+							<ul class="tabs">
+								<li class="active"><a href="#tab1">Образование</a></li>
+								<li><a href="#tab2">Антикоррупционная политика</a></li>
+								<li><a href="#tab3">Руководство</a></li>
+								<li><a href="#tab4">Документы</a></li>
+								<li><a href="#tab5">Структура и органы управления</a></li>
+								<li><a href="#tab6">Основные сведения</a></li>
+								<li><a href="#tab7">Образовательные стандарты</a></li>
+								<li><a href="#tab8">Вакантные места для приема (перевода)</a></li>
+								<li><a href="#tab9">Финансово-хозяйственная деятельность</a></li>
+								<li><a href="#tab10">Платные образовательные услуги</a></li>
+								<li><a href="#tab11">Стипендии и иные виды материальной поддержки</a></li>
+								<li><a href="#tab12">Материально-техническое обеспечение</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-9">
+						<div class="tab-container">
+							<div class="tab-pane" id="tab1">
+								<div class="title-middle">Учебно-курсовой комбинат жилищно-коммунального хозяйства (УКК ЖКХ) <span>– учебный центр, который работает на рынке образовательных услуг Крыма более 60 лет</span></div>
+								<img src="img/about1.jpg" alt="alt">
+								<div class="title-small"><strong>Наша цель</strong> - профессиональная подготовка, переподготовка и повышение квалификации <span>рабочих самых разных профессий для предприятий жилищно-коммунального хоз-ва, а также других отраслей народного хозяйства</span></div>
+								<div class="about-block">
+									<div class="title-about">Учебно-курсовой комбинат осуществляет деятельность в сфере профессионального образования, реализует дополнительные образовательные программы</div>
+									<div class="title-about">Формы обучения: <span>очная, очно–заочная</span></div>
+									<div class="title-about">Срок действия лицензии: <span>бессрочно</span></div>
+									<div class="title-about">Язык, на котором осуществляется образование (обучение): <span>русский</span></div>
+									<div class="descr-min">За дополнительной, интересующей Вас информацией обращайтесь в указанный в вашем городе адрес или звоните по приведённым выше телефонам. Мы с радостью предоставим Вам всю необходимую информацию</div>
+								</div>
+								<div class="title-middle">Как проходит обучение специалистов ?</div>
+								<div class="image-right">
+									<img src="img/about_min1.jpg" alt="alt">
+								</div>
+								<p>Все учебные программы и сопутствующая документация, необходимые для подготовки квалифицированных рабочих по профессиям, разработаны в соответствии с государственными стандартами образования.</p>
+								<p>Учебные аудитории укомплектованы необходимым современным оборудованием, действующими макетами и информационными стендами, плакатами, учебно-методическими пособиями, инструментами, техническими средствами обучения для качественной профессиональной подготовки, переподготовки и повышения квалификации.</p>
+								<p>Организация образовательного процесса и контроль учебной работы педагогов осуществляют директор и заведующая учебной частью. Контролируется состояние и качество выполнения рабочих учебных планов и программ, уровень преподавания учебных предметов и проведения профессионально-практической подготовки, организации индивидуальной работы со слушателями, внедрение передового педагогического и производственного опыта и т. д.</p>
+								<p>Программы учебного процесса предусматривают следующие формы организации обучения: лекции, семинары, практические и лабораторные занятия, производственная практика.</p>
+								<p>Для проведения производственного обучения специалистов и последующей практики по ряду профессий учебным комбинатом заключены договоры с базовыми предприятиями для повышения квалификации на учебно-производственных площадках предприятий.</p>
+								<p>В штате учебного центра повышения квалификации постоянно работают 18 инженерно-педагогических работников и преподавателей. Также, в качестве педагогов, мастеров и инструкторов производственного обучения привлекаются более 30 специалистов и профессиональных рабочих, обладающих колоссальными теоретическими знаниями и огромным практическим опытом.</p>
+								<p>В нашем учебном центре осуществляется и профессиональная подготовка работников, занятых, в том числе, и на профессиях с повышенной опасностью: обслуживание агрегатов и котлов, работающих на газе, жидком и твёрдом топливе, профилактики и техническому обслуживанию газового хозяйства, действия по химическому и бактериологическому обследованию воды, монтаж и ремонт газопроводов, работы с взрывоопасными и токсичными газами, по перемещению грузов погрузчиками, кранами, обследование дымоходов и вентиляционных каналов и т. д. Обучение специалистов ведётся с соблюдением всех правил охраны труда.</p>
+								<p>Для водителей, занятых перевозкой опасных грузов, а также для лиц, ответственных по вопросам безопасной перевозки опасных грузов организован специальный курс по их подготовке и переподготовке.</p>
+								<p>На сегодняшний день нашими партнёрами являются: ГУП РК «Вода Крыма», ГУП РК «Крымгазсети», АО «Генбанк», ФГУП «Крымская железная дорога», ФГБУ МДЦ «Артек», ГУП РК «КрымТеплоКоммунЭнерго», ФГУП «ПАО „Массандра“, ООО „Пи Джи Трэйд Симферополь“ и многие другие.</p>
+								<div class="row">
+									<div class="col-md-6">
+										<img src="img/about_min2.jpg" alt="alt">
+									</div>
+									<div class="col-md-6">
+										<img src="img/about_min3.jpg" alt="alt">
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab2">
+								<div class="item-dropdown item-dropdown_simple">
+									<div class="item-dropdown__head">
+										<div class="item-dropdown__title">Кодекс</div>
+										<a href="#" class="link-block">Подробнее</a>
+									</div>
+									<div class="item-dropdown__content">
+										<a href="#" class="item-doc">Положение о конфликте интересов</a>
+										<a href="#" class="item-doc">Положение о порядке уведомления работодателя о случаях склонения работника к совершению коррупционных правонарушенийв</a>
+										<a href="#" class="item-doc">Положение об антикоррупционной политике</a>
+									</div>
+								</div>
+								<div class="item-dropdown item-dropdown_simple">
+									<div class="item-dropdown__head">
+										<div class="item-dropdown__title">План</div>
+										<a href="#" class="link-block">Подробнее</a>
+									</div>
+									<div class="item-dropdown__content">
+										<a href="#" class="item-doc">Положение о конфликте интересов</a>
+										<a href="#" class="item-doc">Положение о порядке уведомления работодателя о случаях склонения работника к совершению коррупционных правонарушенийв</a>
+										<a href="#" class="item-doc">Положение об антикоррупционной политике</a>
+									</div>
+								</div>
+								<div class="item-dropdown item-dropdown_simple">
+									<div class="item-dropdown__head">
+										<div class="item-dropdown__title">Положение</div>
+										<a href="#" class="link-block">Подробнее</a>
+									</div>
+									<div class="item-dropdown__content">
+										<a href="#" class="item-doc">Положение о конфликте интересов</a>
+										<a href="#" class="item-doc">Положение о порядке уведомления работодателя о случаях склонения работника к совершению коррупционных правонарушенийв</a>
+										<a href="#" class="item-doc">Положение об антикоррупционной политике</a>
+									</div>
+								</div>
+								<div class="item-dropdown item-dropdown_simple">
+									<div class="item-dropdown__head">
+										<div class="item-dropdown__title">Кодекс</div>
+										<a href="#" class="link-block">Подробнее</a>
+									</div>
+									<div class="item-dropdown__content">
+										<a href="#" class="item-doc">Положение о конфликте интересов</a>
+										<a href="#" class="item-doc">Положение о порядке уведомления работодателя о случаях склонения работника к совершению коррупционных правонарушенийв</a>
+										<a href="#" class="item-doc">Положение об антикоррупционной политике</a>
+									</div>
+								</div>
+								<div class="item-dropdown item-dropdown_simple">
+									<div class="item-dropdown__head">
+										<div class="item-dropdown__title">Кодекс</div>
+										<a href="#" class="link-block">Подробнее</a>
+									</div>
+									<div class="item-dropdown__content">
+										<a href="#" class="item-doc">Положение о конфликте интересов</a>
+										<a href="#" class="item-doc">Положение о порядке уведомления работодателя о случаях склонения работника к совершению коррупционных правонарушенийв</a>
+										<a href="#" class="item-doc">Положение об антикоррупционной политике</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab3">
+								<div class="row row_cards">
+									<div class="col-xl-4 col-lg-6 col-sm-6">
+										<div class="card-about">
+											<div class="card-about__title">Бочкарева <br>Ирина Адольфовна</div>
+											<div class="card-about__descr">Директор ООО «УКК ЖКХ» </div>
+											<ul>
+												<li>
+													<a href="tel:+79782127982" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_phone.svg" alt="alt"></span>
+														<span class="value-contacts__text">+7 (978) 212-79-82</span>
+													</a>
+												</li>
+												<li>
+													<a href="mailto:ukkgkh_rc@mail.ru" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_mail.svg" alt="alt"></span>
+														<span class="value-contacts__text">ukkgkh_rc@mail.ru</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xl-4 col-lg-6 col-sm-6">
+										<div class="card-about">
+											<div class="card-about__title">Мальцева <br>Ольга Станиславовна</div>
+											<div class="card-about__descr">Заведующая учебной частью</div>
+											<ul>
+												<li>
+													<a href="tel:+79782550117" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_phone.svg" alt="alt"></span>
+														<span class="value-contacts__text">+ 7 (978) 255-01-17</span>
+													</a>
+												</li>
+												<li>
+													<a href="mailto:ukkgkh_rc@mail.ru" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_mail.svg" alt="alt"></span>
+														<span class="value-contacts__text">ukkgkh_rc@mail.ru</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xl-4 col-lg-6 col-sm-6">
+										<div class="card-about">
+											<div class="card-about__title">Чумак <br>Татьяна Борисовна</div>
+											<div class="card-about__descr">Главный бухгалтер</div>
+											<ul>
+												<li>
+													<a href="tel:+79780889773" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_phone.svg" alt="alt"></span>
+														<span class="value-contacts__text">+ 7 (978) 088-97-73</span>
+													</a>
+												</li>
+												<li>
+													<a href="mailto:ukkgkh_rc@mail.ru" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_mail.svg" alt="alt"></span>
+														<span class="value-contacts__text">ukkgkh_rc@mail.ru</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab4">
+								<div class="item-dropdown item-dropdown_simple">
+									<div class="item-dropdown__head">
+										<div class="item-dropdown__title">Разрешительные документы</div>
+										<a href="#" class="link-block">Подробнее</a>
+									</div>
+									<div class="item-dropdown__content">
+										<a href="#" class="item-doc">Устав</a>
+										<a href="#" class="item-doc">Лицензия на осуществление образовательной деятельности (с приложениями)</a>
+										<a href="#" class="item-doc">Свидетельство о государственной регистрации юридического лица</a>
+										<a href="#" class="item-doc">Свидетельство о постановке на учет российской организации в налоговом органе по месту ее нахождения</a>
+										<a href="#" class="item-doc">Свидетельство о государственной аккредитации (по ОТ)</a>
+										<a href="#" class="item-doc">Удостоверение об утверждении курсов подготовки водителей автотранспортных средств, перевозящих опасные грузы</a>
+									</div>
+								</div>
+								<div class="item-dropdown item-dropdown_simple">
+									<div class="item-dropdown__head">
+										<div class="item-dropdown__title">Локальные нормативные акты ООО «УКК ЖКХ»</div>
+										<a href="#" class="link-block">Подробнее</a>
+									</div>
+									<div class="item-dropdown__content">
+										<a href="#" class="item-doc">Устав</a>
+										<a href="#" class="item-doc">Лицензия на осуществление образовательной деятельности (с приложениями)</a>
+										<a href="#" class="item-doc">Свидетельство о государственной регистрации юридического лица</a>
+										<a href="#" class="item-doc">Свидетельство о постановке на учет российской организации в налоговом органе по месту ее нахождения</a>
+										<a href="#" class="item-doc">Свидетельство о государственной аккредитации (по ОТ)</a>
+										<a href="#" class="item-doc">Удостоверение об утверждении курсов подготовки водителей автотранспортных средств, перевозящих опасные грузы</a>
+									</div>
+								</div>
+								<div class="item-dropdown item-dropdown_simple">
+									<div class="item-dropdown__head">
+										<div class="item-dropdown__title">Сводная ведомость результатов проведения СОУТ 2017г</div>
+										<a href="#" class="link-block">Подробнее</a>
+									</div>
+									<div class="item-dropdown__content">
+										<a href="#" class="item-doc">Устав</a>
+										<a href="#" class="item-doc">Лицензия на осуществление образовательной деятельности (с приложениями)</a>
+										<a href="#" class="item-doc">Свидетельство о государственной регистрации юридического лица</a>
+										<a href="#" class="item-doc">Свидетельство о постановке на учет российской организации в налоговом органе по месту ее нахождения</a>
+										<a href="#" class="item-doc">Свидетельство о государственной аккредитации (по ОТ)</a>
+										<a href="#" class="item-doc">Удостоверение об утверждении курсов подготовки водителей автотранспортных средств, перевозящих опасные грузы</a>
+									</div>
+								</div>
+								<div class="item-dropdown item-dropdown_simple">
+									<div class="item-dropdown__head">
+										<div class="item-dropdown__title">Сводная ведомость результатов проведения СОУТ 2019г</div>
+										<a href="#" class="link-block">Подробнее</a>
+									</div>
+									<div class="item-dropdown__content">
+										<a href="#" class="item-doc">Устав</a>
+										<a href="#" class="item-doc">Лицензия на осуществление образовательной деятельности (с приложениями)</a>
+										<a href="#" class="item-doc">Свидетельство о государственной регистрации юридического лица</a>
+										<a href="#" class="item-doc">Свидетельство о постановке на учет российской организации в налоговом органе по месту ее нахождения</a>
+										<a href="#" class="item-doc">Свидетельство о государственной аккредитации (по ОТ)</a>
+										<a href="#" class="item-doc">Удостоверение об утверждении курсов подготовки водителей автотранспортных средств, перевозящих опасные грузы</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab5">
+								<div class="row row_cards">
+									<div class="col-xl-4 col-lg-6 col-sm-6">
+										<div class="card-about">
+											<div class="card-about__title">Бочкарева <br>Ирина Адольфовна</div>
+											<div class="card-about__descr">Директор ООО «УКК ЖКХ» </div>
+											<ul>
+												<li>
+													<a href="tel:+79782127982" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_phone.svg" alt="alt"></span>
+														<span class="value-contacts__text">+7 (978) 212-79-82</span>
+													</a>
+												</li>
+												<li>
+													<a href="mailto:ukkgkh_rc@mail.ru" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_mail.svg" alt="alt"></span>
+														<span class="value-contacts__text">ukkgkh_rc@mail.ru</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xl-4 col-lg-6 col-sm-6">
+										<div class="card-about">
+											<div class="card-about__title">Мальцева <br>Ольга Станиславовна</div>
+											<div class="card-about__descr">Заведующая учебной частью</div>
+											<ul>
+												<li>
+													<a href="tel:+79782550117" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_phone.svg" alt="alt"></span>
+														<span class="value-contacts__text">+ 7 (978) 255-01-17</span>
+													</a>
+												</li>
+												<li>
+													<a href="mailto:ukkgkh_rc@mail.ru" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_mail.svg" alt="alt"></span>
+														<span class="value-contacts__text">ukkgkh_rc@mail.ru</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xl-4 col-lg-6 col-sm-6">
+										<div class="card-about">
+											<div class="card-about__title">Чумак <br>Татьяна Борисовна</div>
+											<div class="card-about__descr">Главный бухгалтер</div>
+											<ul>
+												<li>
+													<a href="tel:+79780889773" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_phone.svg" alt="alt"></span>
+														<span class="value-contacts__text">+ 7 (978) 088-97-73</span>
+													</a>
+												</li>
+												<li>
+													<a href="mailto:ukkgkh_rc@mail.ru" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_mail.svg" alt="alt"></span>
+														<span class="value-contacts__text">ukkgkh_rc@mail.ru</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xl-4 col-lg-6 col-sm-6">
+										<div class="card-about">
+											<div class="card-about__title">Пух <br>Светлана Вячеславовна</div>
+											<div class="card-about__descr">Методист</div>
+											<ul>
+												<li>
+													<a href="tel:+79782127982" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_phone.svg" alt="alt"></span>
+														<span class="value-contacts__text">+ 7 (978) 212-79-82</span>
+													</a>
+												</li>
+												<li>
+													<a href="mailto:ukkgkh_rc@mail.ru" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_mail.svg" alt="alt"></span>
+														<span class="value-contacts__text">ukkgkh_rc@mail.ru</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xl-4 col-lg-6 col-sm-6">
+										<div class="card-about">
+											<div class="card-about__title">Переверзева <br>Татьяна Владимировна</div>
+											<div class="card-about__descr">Методист</div>
+											<ul>
+												<li>
+													<a href="tel:+79782127984" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_phone.svg" alt="alt"></span>
+														<span class="value-contacts__text">+ 7 (978) 212-79-84</span>
+													</a>
+												</li>
+												<li>
+													<a href="mailto:ukkgkh_rc@mail.ru" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_mail.svg" alt="alt"></span>
+														<span class="value-contacts__text">ukkgkh_rc@mail.ru</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xl-4 col-lg-6 col-sm-6">
+										<div class="card-about">
+											<div class="card-about__title">Шевченко <br>Марина Сергеевна</div>
+											<div class="card-about__descr">Заведующая Ялтинским <br>учебным пунктом</div>
+											<ul>
+												<li>
+													<a href="tel:+79782550128" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_phone.svg" alt="alt"></span>
+														<span class="value-contacts__text">+ 7 (978) 255-01-28</span>
+													</a>
+												</li>
+												<li>
+													<a href="mailto:ukk-yalta@mail.ru" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_mail.svg" alt="alt"></span>
+														<span class="value-contacts__text">ukk-yalta@mail.ru</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xl-4 col-lg-6 col-sm-6">
+										<div class="card-about">
+											<div class="card-about__title">Бдюхина <br>Валентина Владимировна</div>
+											<div class="card-about__descr">Заведующая Сакским учебным пунктом</div>
+											<ul>
+												<li>
+													<a href="tel:+79782550127" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_phone.svg" alt="alt"></span>
+														<span class="value-contacts__text">+ 7 (978) 255-01-27</span>
+													</a>
+												</li>
+												<li>
+													<a href="mailto:bdjuchina2006@mail.ru" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_mail.svg" alt="alt"></span>
+														<span class="value-contacts__text">bdjuchina2006@mail.ru</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xl-4 col-lg-6 col-sm-6">
+										<div class="card-about">
+											<div class="card-about__title">Вакуленко <br>Татьяна Сергеевна</div>
+											<div class="card-about__descr">Заведующая Евпаторийским учебным пунктом</div>
+											<ul>
+												<li>
+													<a href="tel:+79782550116" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_phone.svg" alt="alt"></span>
+														<span class="value-contacts__text">+ 7 (978) 255-01-16</span>
+													</a>
+												</li>
+												<li>
+													<a href="mailto:ukkgkh_rc@mail.ru" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_mail.svg" alt="alt"></span>
+														<span class="value-contacts__text">ukkgkh_rc@mail.ru</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xl-4 col-lg-6 col-sm-6">
+										<div class="card-about">
+											<div class="card-about__title">Никатова <br>Ирина Александровна </div>
+											<div class="card-about__descr">Заведующая Феодосийским учебным пунктом</div>
+											<ul>
+												<li>
+													<a href="tel:+79782550124" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_phone.svg" alt="alt"></span>
+														<span class="value-contacts__text">+ 7 (978) 255-01-24</span>
+													</a>
+												</li>
+												<li>
+													<a href="mailto:chugaeva_ukkgkh@mail.ru" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_mail.svg" alt="alt"></span>
+														<span class="value-contacts__text">chugaeva_ukkgkh@mail.ru</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xl-4 col-lg-6 col-sm-6">
+										<div class="card-about">
+											<div class="card-about__title">Зорина <br>Ольга Васильевна</div>
+											<div class="card-about__descr">Заведующая Красногвардейским учебным пунктом</div>
+											<ul>
+												<li>
+													<a href="tel:+79782550132" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_phone.svg" alt="alt"></span>
+														<span class="value-contacts__text">+ 7 (978) 255-01-32</span>
+													</a>
+												</li>
+												<li>
+													<a href="mailto:olga.zorina.2015@bk.ru" class="value-contacts">
+														<span class="icon-contacts"><img src="img/ic_mail.svg" alt="alt"></span>
+														<span class="value-contacts__text">olga.zorina.2015@bk.ru</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab6">
+								<img src="img/about2.jpg" alt="alt">
+								<div class="text-about">
+									<p>Полное наименование юридического лица <br>Общество с ограниченной ответственностью «Учебно-курсовой комбинат жилищно-коммунального хозяйства»</p>
+									<p>Сокращенное наименование <br>ООО «УКК ЖКХ»</p>
+									<p>Дата создания образовательной организации <br>31 декабря 2014 г.</p>
+									<p>Дата регистрации юридического лица <br>31 декабря 2014 г</p>
+									<p>Информация об учредителях образовательной организации</p>
+									<p>Морозюк Анастасия Юрьевна <br>Лабонина Ксения Евгеньевна <br>Бочкарева Ирина Адольфовна</p>
+									<p>Директор: Бочкарева Ирина Адольфовна</p>
+									<p>Информация о месте нахождения образовательной организации <br>295013, Республика Крым, г. Симферополь, ул.Севастопольская, 43 Д</p>
+									<p>Информация о месте нахождения структурных подразделений</p>
+									<ul>
+										<li>г. Евпатория,  ул. Дёмышева, д.111, тел. 0(36569)60537, моб. +7 (978) 824 48 26; + 7 (978) 255 01 16</li>
+										<li>г. Феодосия,  ул. Украинская, д. 21, офис 13 , моб. +7 (978) 863 58 70; + 7 (978) 255 01 24</li>
+										<li>г. Саки,  ул. Пионерская, д. 1, тел. 0(36563)33905, моб. +7 (978) 736 80 32; + 7 (978) 255 01 27</li>
+										<li>г. Ялта, ул. Московская, 1/ Карла Маркса, 6, тел.+ 7 (978) 255 01 28</li>
+										<li>пгт. Красногвардейское, ул. Тельмана, д. 17, моб. +7(978) 819 54 04; + 7 (978) 255 01 32</li>
+									</ul>
+									<p>Информация о режиме и графике работы образовательной организации <br>Понедельник — Пятница: 09.00 — 17.00 без перерыва на обед <br>Суббота — Воскресенье: выходные дни</p>
+									<p>Информация о контактных телефонах образовательной организации <br>Телефон: +7 (978) 212 79 82; +7 (978) 212 79 84 <br>Телефон, факс: 0 (3652) 44 28 53</p>
+									<p>По вопросам рекламы звонить по номеру + 7 (978) 255 01 17</p>
+									<p>Информация об адресах электронной почты <br>ukkgkh_rc@mail.ru</p>
+									<p>По вопросам рекламы: info.ukkgkh@gmail.com</p>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab7">
+								<img src="img/about3.jpg" alt="alt">
+								<div class="text-about">
+									<p><strong>Учебно-курсовой комбинат осуществляет деятельность в сфере профессионального образования, реализует дополнительные образовательные программы.</strong></p>
+									<p><strong>Формы обучения:</strong> очная, очно–заочная</p>
+									<p><strong>Срок действия лицензии:</strong> бессрочно</p>
+									<p><strong>Язык, на котором осуществляется образование (обучение):</strong> русский</p>
+									<p><strong>За дополнительной, интересующей Вас информацией обращайтесь в указанный в вашем городе адрес или звоните по приведённым выше телефонам. Мы с радостью предоставим Вам всю необходимую информацию.</strong></p>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab8">
+								<img src="img/about4.jpg" alt="alt">
+								<div class="text-about">
+									<p><strong>Информация об объеме образовательной деятельности, финансовое обеспечение которой осуществляется по договорам об образовании за счет средств физических и (или) юридических лиц, о поступлении финансовых и материальных средств и об их расходовании изложена в Уставе ООО «Учебно-курсовой комбинат ЖКХ».</strong></p>
+									<p>Образование бухгалтерии, ведении финансового хозяйства, работа на предприятиях, общения с квалифицированными специалистами нашего образовательного учреждения и поучение опыта работы. Всё это в УКК ЖКХ в Крыму.</p>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab9">
+								<img src="img/about5.jpg" alt="alt">
+								<div class="text-about">
+									<p><strong>Положение об оказании платных образовательных услуг</strong></p>
+									<p><strong>Форма договора об оказании платных образовательных услуг</strong></p>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab10">
+								<img src="img/about6.jpg" alt="alt">
+								<div class="text-about">
+									<p><strong>Информация о наличии и условиях предоставления стипендий:</strong> <br>не предусмотрено</p>
+									<p><strong>Информация о наличии общежития:</strong> <br>нет</p>
+									<p><strong>Информация о наличии интерната:</strong> <br>нет</p>
+									<p><strong>Информация о наличии интерната для иногородних обучающихся:</strong> <br>нет</p>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab11">
+								<img src="img/about7.jpg" alt="alt">
+								<div class="text-about">
+									<p><strong>Оснащенность учебных кабинетов:</strong> Плакаты, раздаточный материал, наглядные пособия, литература, видеопроекторы, экраны для видеопроектора (проекционные экраны), компьютеры, классные доски, информационные (обучающие) материалы на электронных носителях.</p>
+									<p><strong>Проведение промежуточной и итоговой аттестации слушателей осуществляется при помощи лицензионного программного обеспечения ОЛИМПОКС.</strong></p>
+									<p><strong>Проведение практических занятий осуществляется</strong> на базе предприятий, специфика деятельности которых соответствует профилю соответствующих программ профессионального обучения на основании заключенных договоров по организации практического (производственного) обучения.</p>
+									<p><strong>Требования законодательства к условиям питания и охраны здоровья слушателей обеспечены заключенными договорами «На обеспечение питанием» и «Предоставление медицинских услуг».</strong></p>
+									<p><strong>Доступ к информационным системам и информационно-телекоммуникационным сетям обеспечен наличием подключения к сети ИНТЕРНЕТ.</strong></p>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab12">
+								<img src="img/about7.jpg" alt="alt">
+								<div class="text-about">
+									<p><strong>Оснащенность учебных кабинетов:</strong> Плакаты, раздаточный материал, наглядные пособия, литература, видеопроекторы, экраны для видеопроектора (проекционные экраны), компьютеры, классные доски, информационные (обучающие) материалы на электронных носителях.</p>
+									<p><strong>Проведение промежуточной и итоговой аттестации слушателей осуществляется при помощи лицензионного программного обеспечения ОЛИМПОКС.</strong></p>
+									<p><strong>Проведение практических занятий осуществляется</strong> на базе предприятий, специфика деятельности которых соответствует профилю соответствующих программ профессионального обучения на основании заключенных договоров по организации практического (производственного) обучения.</p>
+									<p><strong>Требования законодательства к условиям питания и охраны здоровья слушателей обеспечены заключенными договорами «На обеспечение питанием» и «Предоставление медицинских услуг».</strong></p>
+									<p><strong>Доступ к информационным системам и информационно-телекоммуникационным сетям обеспечен наличием подключения к сети ИНТЕРНЕТ.</strong></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="consultation">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-9">
+						<h2 class="title-section">Остались вопросы?</h2>
+						<div class="descr-page">Для того что бы узнать больше, начать обучение, уточнить информацию, специфику или по любому другому вопросу — <strong>позвоните нам на любой из номеров:</strong> <div class="phones-big"><a href="tel:+79782127982">+7 (978) 212-79-82</a> <a href="tel:+79782127984">+7 (978) 212-79-84</a></div> или просто напишите в чат и наши специалисты с радостью ответят Вам на все интересующие вопросы.</div>
+						<div class="form-block">
+							<form>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="item-form">
+											<input type="text" placeholder="Имя" required="required">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="item-form">
+											<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+										</div>
+									</div>
+									<div class="col-md-6 col_checkbox">
+										<div class="checkbox checkbox_white">
+											<label>
+												<input type="checkbox" required="required" checked="checked" />
+												<span>Согласие на обработку персональных данных</span>
+											</label>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<button class="btn-main">Задать вопрос</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="image-consultation">
+							<img src="img/conusltant.png" alt="alt">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2">
+						<div class="footer-logo">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="alt">
+							</a>
+							<div class="logo-name">Учебно-курсовой комбинат жилищно-коммунального хозяйства</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title">Курсы <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Промышленная безопасность</a></li>
+								<li><a href="#">Охрана труда</a></li>
+								<li><a href="#">Профессиональная подготовка специалистов</a></li>
+								<li><a href="#">Пожарная безопасность</a></li>
+								<li><a href="#">Экологическая безопасность</a></li>
+								<li><a href="#">Энергосбрежение</a></li>
+								<li><a href="#">Повышение квалификации</a></li>
+								<li><a href="#">Обучение рабочих</a></li>
+								<li><a href="#">Ежегодно обучение</a></li>
+								<li><a href="#">Безопасность движения на автотранспорте</a></li>
+								<li><a href="#">Гражданская оборона</a></li>
+								<li><a href="#">Рабочие профессии</a></li>
+								<li><a href="#">ЦОК</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title">О нас <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Структура и органы управления</a></li>
+								<li><a href="#">Основные сведения</a></li>
+								<li><a href="#">Документы</a></li>
+								<li><a href="#">Образование</a></li>
+								<li><a href="#">Образовательные стандарты</a></li>
+								<li><a href="#">Вакантные места для приема (перевода)</a></li>
+								<li><a href="#">Финансово-хозяйственная деятельность</a></li>
+								<li><a href="#">Платные образовательные услуги</a></li>
+								<li><a href="#">Руководство и педагогический состав</a></li>
+								<li><a href="#">Стипендии и иные виды материальной поддержки</a></li>
+								<li><a href="#">Материально-техническое обеспечение</a></li>
+								<li><a href="#">Антикоррупционная политика</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<ul class="footer__nav footer__nav_big">
+							<li><a href="#">Дистанционное обучение</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">Вакансии</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title">Контакты <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<div class="footer__contacts">
+								<ul>
+									<li><a href="tel:+79782127982" class="phone-main">+7 (978) 212-79-82</a></li>
+									<li><a href="tel:+79782127984" class="phone-main">+7 (978) 212-79-84</a></li>
+								</ul>
+								<ul class="social-page">
+									<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+									<li><a href="#"><img src="img/wp.svg" alt="alt"></a></li>
+								</ul>
+							</div>
+							<a href="mailto:ukkgkh_rc@mail.ru" class="link-page">ukkgkh_rc@mail.ru</a>
+							<div class="location-main"><strong>г. Симферополь,</strong> ул. Севастопольская, 43Д</div>
+							<div class="location-main"><strong>г. Евпатория, </strong>ул. Демышева, 111,</div>
+							<div class="location-main"><strong>г. Феодосия, </strong> ул. Украинская, 21, оф., 13,</div>
+							<div class="location-main"><strong>г. Саки, </strong> ул. Пионерская, 1,</div>
+							<div class="location-main"><strong>г. Ялта,</strong> ул. Московская 1/К. Маркса 6,</div>
+							<div class="location-main"><strong>пгт. Красногвердейское,</strong> ул. Тельмана, 17</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg">
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="col-lg">
+							<p>г. Симферополь © Copyright  2022 г.</p>
+						</div>
+						<div class="col-lg">
+							<div class="create">Сделано в <a href="#"><img src="img/copy.svg" alt="alt"></a></div>
+						</div>
+						<div class="col-lg"></div>
+						<div class="col-lg">
+							<a href="#" class="btn_top default"><i class="fal fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<div id="modal-vacancy" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-form">Отправьте свое резюме</div>
+			<div class="descr-form">Прикрепите документ ниже и мы с вами свяжемся</div>
+			<div class="modal-wrap__content">
+				<form>
+					<div class="item-form item-form_page">
+						<input type="text" placeholder="Имя" required="required">
+					</div>
+					<div class="item-form item-form_page">
+						<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+					</div>
+					<div class="item-form item-form_page">
+						<input type="email" placeholder="E-mail" required="required">
+					</div>
+					<div class="file-upload">
+						<label><input type="file" name="file"><i class="far fa-paperclip"></i> Прикрепить документ</label>
+						<div class="name-upload"></div>
+					</div>
+					<button class="btn-main">Отправить резюме</button>
+					<div class="checkbox-wrap">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" required="required" checked="checked" />
+								<span>Согласие на обработку персональных данных</span>
+							</label>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script> 
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.5"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
