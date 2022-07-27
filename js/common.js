@@ -135,6 +135,32 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		}
 	}
 
+	$('.tabs li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+	});
+
+	$('.btn-tab').click(function(event) {
+		event.preventDefault();
+		$(this).toggleClass("active");
+		$(".tabs li:not(.active)").slideToggle(200);
+		$(".tabs li").addClass("active_mob");
+	});
+
+	if ($(window).width() < 992) {
+		$('.tabs li a').click(function() {
+			if ($(this).parent().hasClass("active_mob")) {
+				$(".tabs li:not(.active)").slideUp(200);
+				$('.btn-tab').removeClass("active");
+			} else {
+			}
+		});
+
+	}
 
 	 // стайлер для select
 	 $('select').styler();

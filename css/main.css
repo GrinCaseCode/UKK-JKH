@@ -1774,4 +1774,366 @@ form {
 }
 #modal-registration .modal-wrap {
 	width: 700px;
-} 
+}
+.course-direction .table-main th {
+	white-space: normal;
+}
+.course-direction {
+	padding-bottom: 30px;
+}
+.course-direction .title-section {
+	padding-bottom: 50px;
+}
+.tabs a {
+	font-size: 18px;
+	line-height: 25px;
+	height: 71px;
+	margin-bottom: 35px;
+	padding: 0 10px;
+	font-weight: 700;
+	color: #333;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #DBEEF4;
+	border-radius: 10px;
+}
+.tabs a:hover,
+.tabs .active a {
+	background-color: #008DD2;
+	color: #fff;
+}
+.title-middle {
+	font-size: 30px;
+	line-height: 42px;
+	font-weight: 700;
+	color: #000;
+}
+.title-middle span {
+	font-weight: 400;
+}
+.about-page img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 20px;
+	margin-bottom: 40px;
+}
+.about-page .title-small,
+.about-page .title-middle {
+	margin-bottom: 30px;
+}
+.title-small {
+	font-size: 28px;
+	line-height: 39px;
+	font-weight: 700;
+	color: #000;
+}
+.title-small span {
+	font-weight: 400;
+}
+.title-small strong {
+	color: #008DD2;
+}
+.about-page p {
+	margin-bottom: 30px;
+}
+.image-right {
+	margin-left: 35px;
+	margin-bottom: 0px;
+	float: right;
+}
+.about-page {
+	padding-bottom: 100px;
+}
+.about-page .title-section {
+	padding-bottom: 40px;
+}
+.tab-pane {
+	display: none;
+}
+.tab-pane:nth-child(1) {
+	display: block;
+}
+.wrap-tabs {
+	position: relative;
+}
+.btn-tab {
+	display: none;
+}
+.about-block {
+	padding: 40px;
+	margin: 30px 0;
+	border-radius: 20px;
+	box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+	background-image: url(../img/bg_about.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.title-about {
+	font-size: 22px;
+	line-height: 31px;
+	margin-bottom: 30px;
+	font-weight: 700;
+	color: #333;
+}
+.title-about span {
+	font-weight: 400;
+}
+.descr-min {
+	font-size: 14px;
+	line-height: 20px;
+	padding-left: 9px;
+	position: relative;
+	color: #828282;
+}
+.descr-min::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	top: 5px;
+	left: 0;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: #828282;
+}
+.item-doc {
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 20px;
+	padding-left: 38px;
+	color: #4F4F4F;
+	position: relative;
+	display: block;
+}
+.item-doc::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 21px;
+	height: 23px;
+	top: 0;
+	left: 0;
+	background-image: url(../img/doc.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
+.item-dropdown_simple .item-dropdown__head {
+	padding-top: 27px;
+	padding-bottom: 27px;
+	height: auto;
+}
+.item-dropdown_simple {
+	margin-bottom: 40px;
+}
+.icon-contacts img {
+	margin: 0 !important;
+	border-radius: 0 !important;
+}
+.card-about {
+	padding: 25px;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F2;
+	box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+	border-radius: 20px;
+	min-height: 100%;
+	color: #4F4F4F;
+}
+.card-about__title {
+	font-size: 26px;
+	line-height: 39px;
+	margin-bottom: 12px;
+	font-weight: 700;
+}
+.card-about__descr {
+	font-size: 18px;
+	margin-bottom: 15px;
+	min-height: 52px;
+}
+.card-about .value-contacts {
+	margin-bottom: 23px;
+}
+.row_cards > div {
+	margin-bottom: 35px;
+}
+#tab5 .card-about__title {
+	font-size: 22px;
+	line-height: 33px;
+}
+.text-about li::before {
+	content: "•";
+	margin: 0 10px;
+}
+.text-about ul {
+	margin-bottom: 30px;
+}
+.billbord_page {
+	padding-top: 0;
+	padding-bottom: 36px;
+	background-image: url(../img/billbord1.jpg);
+}
+.billbord_page .breadcumbs {
+	color: #4F4F4F;
+}
+.descr-big {
+	font-size: 24px;
+	line-height: 38px;
+	font-weight: 500;
+}
+.billbord_page .title-big {
+	padding-bottom: 30px;
+}
+.billbord_page .descr-big {
+	padding-bottom: 48px;
+}
+.block-price .btn-main {
+	width: 300px;
+}
+.price-big {
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 700;
+	color: #1393E2;
+}
+.block-price {
+	display: flex;
+}
+.block-price__left {
+	margin-right: 55px;
+}
+.program-course li,
+.about-course li {
+	padding-left: 30px;
+	margin-bottom: 24px;
+	font-size: 20px;
+	line-height: 30px;
+	color: #333;
+	position: relative;
+}
+.program-course li::before,
+.about-course li::before {
+	position: absolute;
+	display: block;
+	content: "•";
+	margin: 0 10px;
+	top: 0;
+	left: 0;
+}
+.about-course img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+.about-course .link-block {
+	font-size: 28px;
+	margin-bottom: 20px;
+	display: inline-block;
+	border-width: 2px;
+}
+.about-course {
+	padding: 100px 0;
+}
+.about-course .title-section {
+	margin-bottom: 50px;
+	max-width: 1068px;
+}
+.subtitle-section {
+	font-size: 26px;
+	line-height: 36px;
+	color: #000;
+	font-weight: 700;
+}
+.result-course .subtitle-section {
+	margin-bottom: 50px;
+}
+.result-course {
+	padding-top: 55px;
+	padding-bottom: 110px;
+	background-image: url(../img/bg_sect.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.result-course .block-document {
+	max-width: 335px;
+	padding-left: 17px;
+	padding-right: 17px;
+}
+.result-course .block-document__image img {
+	width: 672px;
+	height: 424px;
+}
+.result-course .block-document__image {
+	margin-top: 0;
+	    margin-bottom: -105px;
+	    height: auto;
+}
+.result-course__left .title-min {
+	margin-bottom: 64px;
+	color: #000;
+}
+.result-course .title-section {
+	margin-bottom: 40px;
+}
+.program-descr {
+	font-size: 20px;
+	line-height: 32px;
+	margin-bottom: 25px;
+	font-weight: 500;
+	color: #1393E2;
+}
+.program-course {
+	padding: 100px 0;
+}
+.program-course .title-section {
+	padding-bottom: 20px;
+}
+.program-course .descr-big {
+	margin-bottom: 30px;
+	font-weight: 700;
+	max-width: 850px;	
+	color: #000;
+}
+.program-course .title-form {
+	margin-bottom: 40px;
+}
+.form-block .title-min {
+	margin: 0 auto;
+	margin-bottom: 50px;
+	max-width: 842px;
+	text-align: center;
+	font-weight: 700;
+}
+.section-form .form-block {
+	padding-top: 34px;
+	padding-bottom: 34px;
+}
+.section-form {
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+.billbord_page .billbord-block {
+	margin-right: 0;
+}
+.program-course .block-form {
+	padding-top: 35px;
+}
+.thanks {
+	padding-top: 100px;
+	padding-bottom: 250px;
+	background-image: url(../img/bg_thanks.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.thanks .descr-big {
+	max-width: 492px;
+	margin-bottom: 60px;
+}
+.thanks .title-big {
+	padding-bottom: 40px;
+	max-width: 443px;
+}
