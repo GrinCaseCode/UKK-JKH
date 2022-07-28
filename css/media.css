@@ -1492,6 +1492,7 @@
 		height: 248px;
 	}
 	.result-course .block-document {
+		max-width: 294px;
 		min-height: auto;
 	}
 	.result-course {
