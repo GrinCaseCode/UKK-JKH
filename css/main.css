@@ -1970,6 +1970,22 @@ form {
 .text-about ul {
 	margin-bottom: 30px;
 }
+.thanks {
+	padding-top: 100px;
+	padding-bottom: 250px;
+	background-image: url(../img/bg_thanks.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.thanks .descr-big {
+	max-width: 492px;
+	margin-bottom: 60px;
+}
+.thanks .title-big {
+	padding-bottom: 40px;
+	max-width: 443px;
+}
 .billbord_page {
 	padding-top: 0;
 	padding-bottom: 36px;
@@ -2120,20 +2136,4 @@ form {
 }
 .program-course .block-form {
 	padding-top: 35px;
-}
-.thanks {
-	padding-top: 100px;
-	padding-bottom: 250px;
-	background-image: url(../img/bg_thanks.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-.thanks .descr-big {
-	max-width: 492px;
-	margin-bottom: 60px;
-}
-.thanks .title-big {
-	padding-bottom: 40px;
-	max-width: 443px;
 }
